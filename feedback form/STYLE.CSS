@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+body{
+    background-color: aquamarine;
+    
+}
+.form-container{
+    height: 400px;
+    width: 400px;
+    margin: 50px auto;
+}
+.form-container form{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: -moz-linear-gradient(pink ,purple);
+    padding: 60px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    font-size: 2.5rems;
+}
+
+.form-container form h3{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.form-container from label {
+    font-size: 1.3rem;
+    padding: 3px 0;
+    margin: 5px 0 5px 0 ;
+}
+.form-container form input,textarea{
+    padding:8px;
+    border-radius: 20px;
+}
